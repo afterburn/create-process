@@ -1,6 +1,6 @@
 {
   "name": "create-process",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Small utility function to help your create and manage node processes more easily",
   "main": "index.js",
   "scripts": {},

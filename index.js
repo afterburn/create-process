@@ -1,9 +1,9 @@
 const spawn = require('cross-spawn')
 
 function createProcess (config) {
-  const name = config.name || 'process'
+  const name = config.name
   const tag = `[${name}]`
-  let { cmd, args, opts } = config.cmd
+  let { cmd, args, opts } = config
 
   if (!args) {
     args = []
