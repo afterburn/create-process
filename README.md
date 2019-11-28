@@ -11,7 +11,7 @@ npm install --save create-process
 
 ## Usage
 ```javascript
-const createProcess = require('createProcess')
+const createProcess = require('create-process')
 
 // Simple usage:
 const process = createProcess('npm run build')
