@@ -1,14 +1,24 @@
 {
   "name": "create-process",
-  "version": "0.0.3",
-  "description": "Small utility function to help your create and manage node processes more easily",
+  "version": "0.0.4",
+  "description": "Small utility library to help your create and manage node processes more easily",
   "main": "index.js",
   "scripts": {},
-  "keywords": ["create", "process", "spawn"],
+  "keywords": [
+    "create",
+    "process",
+    "manager",
+    "spawn",
+    "create-process"
+  ],
   "author": {
     "name": "Kevin Karsopawiro",
     "email": "k.karsopawiro@gmail.com",
     "url": "https://www.linkedin.com/in/afterburn/"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/afterburn/create-process"
   },
   "license": "MIT",
   "dependencies": {
