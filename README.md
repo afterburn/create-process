@@ -14,15 +14,17 @@ npm install --save create-process
 const createProcess = require('create-process')
 
 // Simple usage:
-const process = createProcess('npm run build')
+const p = createProcess('npm run build')
 
 // Advanced usage:
-const process = createProcess({
-  name: 'webpack',
+const p = createProcess({
   cmd: 'npm',
   args: ['run', 'build'],
   opts: {
     cwd: path.join(__dirname, '..')
   }
 })
+
+// Killing your process:
+p.kill()
 ```
